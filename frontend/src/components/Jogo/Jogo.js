@@ -7,11 +7,13 @@ import gameover from "../../assets/game-over.png";
 
 function Jogo() {
 
+    console.log("Componente de jogo renderizado");
+
     const [estaPulando, setEstaPulando] = useState(false);
 
     document.onkeydown = function(){
         console.log("KeyDown");
-        estaPulando = true;
+        setEstaPulando(truue);
     }
 
     console.log(15, { estaPulando });
